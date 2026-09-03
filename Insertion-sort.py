@@ -14,7 +14,7 @@ def insertion_sort(array):
 
 
 def main():
-    arr = np.array([7, 2, 3, 9, 0, 2, 5])
+    arr = np.array([])
 
     insertion_sort(arr)
 
@@ -25,4 +25,6 @@ main()
 """
 Insertion sort er bra for små lister, men dårligere for lengre lister.
 O(n²)
+
+Den er enkel, og dermed kjapp å implementere dersom noe må sorteres kjapt. 
 """
