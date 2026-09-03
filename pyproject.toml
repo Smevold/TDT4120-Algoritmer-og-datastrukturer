@@ -7,7 +7,9 @@ authors = [
     { name = "August Hauge Smevold", email = "august.hauge.smevold@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.2",
+]
 
 [project.scripts]
 tdt4120-algoritmer-og-datastrukturer = "tdt4120_algoritmer_og_datastrukturer:main"
