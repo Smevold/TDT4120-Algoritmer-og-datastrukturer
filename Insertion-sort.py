@@ -26,5 +26,5 @@ main()
 Insertion sort er bra for små lister, men dårligere for lengre lister.
 O(n²)
 
-Den er enkel, og dermed kjapp å implementere dersom noe må sorteres kjapt. 
+Den er enkel, og dermed kjapp å implementere. 
 """
